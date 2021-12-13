@@ -1,0 +1,184 @@
+
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #808080;
+}
+
+header{
+	background-color: rgba(87, 49, 255, 0.959);
+	padding: 20px 0;
+}
+
+#seccion1{
+	background-image: url("../img/Tours-05.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top center;
+	color: #fff;
+	padding: 12% 0;
+	height: 700px;
+	
+}
+
+#seccion1 h1{
+	font-size: 20px;
+	font-weight: 300;
+	margin-left: 750px;
+	position: absolute;
+	top: 300px;
+}
+
+#seccion1 p{
+	font-size: 14px;
+	margin-left: 753px;
+	position: absolute;
+	top: 330px;
+}
+
+
+#seccion2 h2{
+	font-size: 20px;
+	font-weight: 300;
+	margin-left: 685px;
+	position: absolute;
+	top:515px;
+	
+}
+
+#seccion2 p{
+	font-size: 14px;
+	margin-left: 685px;
+	position: absolute;
+	top: 545px;
+}
+
+#seccion3 h3{
+	font-size: 20px;
+	font-weight: 300;
+	margin-left: 660px;
+	position: absolute;
+	top:720px;
+	
+	
+}
+
+#seccion3 p{
+	font-size: 14px;
+	margin-left: 660px;
+	position: absolute;
+	top: 750px;
+	
+}
+#seccion1 .btn{
+	border-radius: 0;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+
+.titulo{
+	font-size: 45px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #222;
+}
+
+.section{
+	padding: 5% 0;	
+}
+
+
+#articulo_viajes{
+	text-align: center;
+}
+
+.footer {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 50px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(196, 214, 231);
+	}
+	
+.footer > * {
+	flex:  1 100%;
+}
+	
+.icon-footer {
+	margin-right: 1.25em;
+	margin-bottom: 2em;
+}
+	
+h2 {
+	font-weight: 400;
+	font-size: 15px;
+}
+	
+.footer ul {
+	list-style: none;
+	padding-left: 0;
+}
+	
+.footer li {
+	line-height: 2em;
+}
+	
+.footer a {
+	text-decoration: none;
+}
+	
+.nuestra-footer {
+	display: flex;
+	flex-flow: row wrap;
+}
+	
+.nuestra-footer > * {
+	margin-right: 1.25em;
+}
+	
+.box a {
+	color: #999;
+}
+	
+.h-box {
+	column-count: 2;
+	column-gap: 1.25em;
+}
+	
+.frm-footer {
+	text-align: center;
+	color: #999;
+	padding-top: 50px;
+}
+	
+.icon-footer p {
+	padding-right: 20%;
+	color: #999;
+}   
+	
+@media screen and (min-width: 600px) {
+	.nuestra-footer > * {
+		flex: 1;
+}
+	
+.cont_footer {
+	flex-grow: 2;
+}
+	
+.icon-footer {
+	flex: 1 0px;
+}
+	
+.nuestra-footer {
+	flex: 2 0px;
+}
+}
+
+
+
+
